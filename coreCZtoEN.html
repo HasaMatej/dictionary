@@ -1,0 +1,60 @@
+﻿ <!DOCTYPE html>
+<html>
+<head>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<script src="index.js" type="text/javascript"></script>
+	<link rel="stylesheet" href="index.css" type="text/css" >
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta charset="UTF-8">
+	<title> to English! </title>
+</head>
+<body onload="newWord()">
+
+
+<div id=box>
+	<div id="headlines" class="container">
+		<h1><span id="redText">to</span> English!</h1>
+		<h3><span id="redText">to</span> dáš!</h3>
+	</div>
+
+	<div id="input">
+		<input type="text" id="result" autofocus>
+	</div>
+
+	<div id="newWord">
+		<p id="newWord">czech word</p>
+	</div>
+	<div id="score">
+		<p>Your score: <span id="scoreCount">0</span></p>
+	</div>
+
+	<!-- BUTTONS -->
+	<div id="checkit">
+		<button onclick="check()"><b>Czech it! </b><i class="fa fa-thumbs-o-up" aria-hidden="true"></i></button>
+	</div>
+	<div id="newWordBtn">
+		<button onclick="newWord()">New word</button>
+	</div>
+	<div id="showMe">
+		<button class="red" onclick="showMe()">Show me</button>
+	</div>
+
+	<div id="hints">
+		<div id="small">
+			<button onclick="smallHint()">small hint</button>
+		</div>
+		<div id="big">
+			<button onclick="biggerHint()">bigger hint</button>
+		</div>
+	</div>
+
+	<div id="BackToMenuBtn">
+		<a href="index.html"><button class="grey">Back to menu</button></a>
+	</div>
+
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,58 @@
+.languagebox {
+	border:3px solid #604020;
+	border-radius:15px;
+	background-color: #ecd9c6;
+	width:75%;
+	margin:auto;
+	margin-bottom:1%;
+	/*animation width*/
+	-webkit-transition: width .75s; /* Safari */
+  transition: width .75s;
+}
+
+.languagebox:hover{
+	background-color:#dfbf9f;
+	width:65%;
+}
+
+.text {
+	padding:25px;
+	text-align: center;
+	margin:0px;
+	font-size:20px;
+	font-weight:bold;
+}
+
+.aboutBox {
+	margin-top:5%;
+}
+
+.aboutBox:hover {
+	background-color: #cce6ff;
+}
+
+a, a:hover, a:active, a:visited, a:focus{
+	text-decoration:none;
+	color:black;
+}
+
+/*ABOUT*/
+.aboutDiv{
+	margin:0 5%;
+}
+
+.aboutText{
+	text-align: justify;
+  text-justify: inter-word;
+	font-size:15px;
+	font-weight:bold;
+}
+
+.aboutLang{
+	font-size:30px;
+	color:black;
+}
+
+.aboutBackToMenu{
+	margin-top:6%;
+}
