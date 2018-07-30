@@ -1,7 +1,7 @@
 
 /*GLOBAL PARAMETERS*/
 var pole = [{en:"antelope",cz:"antilopa"},
-			{en:"armadillo",cz:"pasovec"},
+			{en:"armadillo",cz:"pasovecccccccc"},
 			{en:"baboon",cz:"pavian"},
 			{en:"bat",cz:"netopyr"},
 			{en:"boar",cz:"divocak"},
