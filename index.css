@@ -1,7 +1,7 @@
 /*GLOBALS*/
 .container {
-	width:80%;
-	margin:auto;
+  width:80%;
+  margin:auto;
 }
 
 
@@ -24,6 +24,7 @@ button {
   padding: 6px 20px 7px 20px;
   text-decoration: none;
   border:none;
+  height:7em !important;
 }
 
 button:hover {
@@ -102,150 +103,153 @@ button:hover {
 /*//////////////////////////////////////////////////////////////////////////
 /*BOXES AND BACKGROUNDS*/
 body {
-	background:#ecd9c6;
-	margin:0;
-	padding:0;
+  background:#ecd9c6;
+  margin:0;
+  padding:0;
 }
 
 #box {
-	border:3px solid #604020;
-	border-radius:15px;
-	background-color: #ac7339;
-	width:50%;
-	margin:auto;
-	margin-top: 5%;
+  border:3px solid #604020;
+  border-radius:15px;
+  background-color: #ac7339;
+  width:50%;
+  margin:auto;
+  margin-top: 5%;
 }
 
 
 /*//////////////////////////////////////////////////////////////////////
 /*HEADLINES*/
 #headlines {
-	padding:0;
+  padding:0;
 }
 #headlines h1, h3 {
-	padding:0;
-	margin:0;
-	color:black;
-	text-align:center;
+  padding:0;
+  margin:0;
+  color:black;
+  text-align:center;
 }
 
 #headlines h1 {
-	font-size:75px;
-	margin-bottom:5px;
+  font-size:75px;
+  margin-bottom:5px;
 }
 
 #headlines h3 {
-	font-size:35px;
-	margin-bottom:30px;
+  font-size:35px;
+  margin-bottom:30px;
 }
 
 #redText {
-	color:#b70c0c;
+  color:#b70c0c;
 }
 
 /*///////////////////////////////////////////////////////////////////
 /*INPUT BOX */
 input[type=text] {
-	border:solid 2px black;
+  border:solid 2px black;
+  display: block;
+  margin : 0 auto;
+
 }
 
 #input {
-	text-align:center;
-	margin-bottom:35px;
+  text-align:center;
+  margin-bottom:35px;
 }
 
 #result {
-	width:40%;
-	height:42px;
-	font-size:33px;
-	padding-left:3px;
+  width:70%;
+  height:80px;
+  font-size:33px;
+  padding-left:3px;
 }
 
 /*///////////////////////////////////////////////////////////////////
 /*NEW WORD*/
 #newWord {
-	text-align:center;
-	font-size:45px;
-	color:black;
-	margin-bottom:10px;
+  text-align:center;
+  font-size:45px;
+  color:black;
+  margin-bottom:10px;
 }
 
 /*///////////////////////////////////////////////////////////////
 /*BUTTONS*/
 /*check button*/
 #checkit {
-	text-align:center;
-	margin:0;
-	margin-bottom:3px;
-	padding:0;
+  text-align:center;
+  margin:0;
+  margin-bottom:3px;
+  padding:0;
 }
 
 #checkit button {
-	width:40%;
-	height:37px;
+  width:40%;
+  height:37px;
 }
 
 /*new word button*/
 #newWordBtn {
-	text-align:center;
-	margin:0;
-	padding:0;
-	margin-bottom:3px;
+  text-align:center;
+  margin:0;
+  padding:0;
+  margin-bottom:3px;
 }
 
 #newWordBtn button {
-	width:40%;
-	height:37px;
+  width:40%;
+  height:37px;
 }
 
 #BackToMenuBtn{
-	text-align:center;
-	margin:0;
-	padding:0;
-	margin-bottom:2.5%;
+  text-align:center;
+  margin:0;
+  padding:0;
+  margin-bottom:2.5%;
 }
 
 #BackToMenuBtn button {
-	width:40%;
-	height:37px;
+  width:40%;
+  height:37px;
 }
 
 
 #showMe {
-	text-align:center;
-	margin:0;
-	padding:0;
-	margin-bottom:3px;
+  text-align:center;
+  margin:0;
+  padding:0;
+  margin-bottom:3px;
 }
 
 #showMe button {
-	width:40%;
-	height:37px;
+  width:40%;
+  height:37px;
 }
 
 /*hints btns */
 #hints {
-	width:40%;
-	text-align:center;
-	margin:auto;
-	padding:0;
-	margin-bottom:10%;
+  width:60%;
+  text-align:center;
+  margin:auto;
+  padding:0;
+  margin-bottom:10%;
 }
 
 #small {
-	float:left;
+  float:left;
 }
 
 
 #big {
-	float:right;
+  float:right;
 }
 /*SCORE*/
 #score {
-	text-align:center;
-	font-size:25px;
-	color:black;
-	margin-bottom:30px;
+  text-align:center;
+  font-size:25px;
+  color:black;
+  margin-bottom:30px;
 }
 
 
